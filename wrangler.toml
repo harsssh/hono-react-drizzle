@@ -14,5 +14,11 @@ compatibility_flags = [ "nodejs_compat" ]
 # binding = "MY_BUCKET"
 # bucket_name = "my-bucket"
 
+[[d1_databases]]
+binding = "DB"
+database_name = "my-app-dev"
+database_id = "ae57ca8d-eb72-459f-b93f-36545e2b35f1"
+migrations_dir = "drizzle"
+
 # [ai]
 # binding = "AI"

@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1729872362010,
+      "tag": "0000_parallel_mikhail_rasputin",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1729874200904,
+      "tag": "0001_eager_ares",
+      "breakpoints": true
+    }
+  ]
+}
