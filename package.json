@@ -1,0 +1,27 @@
+{
+  "name": "my-app",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "$npm_execpath run build:client && $npm_execpath run build:server",
+    "build:client": "vite build --mode client",
+    "build:server": "vite build",
+    "preview": "$npm_execpath run build && wrangler pages dev",
+    "deploy": "$npm_execpath run build && wrangler pages deploy"
+  },
+  "dependencies": {
+    "hono": "^4.6.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "@hono/vite-build": "^1.0.0",
+    "@hono/vite-dev-server": "^0.15.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "vite": "^5.2.12",
+    "wrangler": "^3.57.2"
+  }
+}
